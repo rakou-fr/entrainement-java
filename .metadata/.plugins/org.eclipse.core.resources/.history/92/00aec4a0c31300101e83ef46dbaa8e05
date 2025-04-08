@@ -1,0 +1,10 @@
+
+public class VéhiculeTransportMarchandises {
+	private float chargeMax;
+	private float chargeUtile;
+	
+	public VéhiculeTransportMarchandises(float chargeMax, float chargeUtile) {
+		this.chargeMax = chargeMax;
+		this.chargeUtile = chargeUtile;
+	}
+}

@@ -1,0 +1,8 @@
+
+public class Application {
+
+	@Override
+	public String toString(float VMax, float durée) {
+		return 
+	}
+}

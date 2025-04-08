@@ -1,0 +1,23 @@
+
+abstract public class Véhicule {
+	private String immatriculation;
+	private float poids;
+	
+	public Véhicule(String immatriculation, float poids) {
+		this.immatriculation = immatriculation;
+		this.poids = poids;
+		
+	}
+	
+	abstract public float vitesseMax();
+	
+	public String getImmatriculation() {
+		return this.immatriculation;
+	}
+	
+	public float getPoids() {
+		return this.poids;
+	}
+	
+	
+}

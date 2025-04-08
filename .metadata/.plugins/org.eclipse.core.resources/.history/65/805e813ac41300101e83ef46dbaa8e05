@@ -1,0 +1,12 @@
+
+abstract public class VéhiculeTransportPersonnes {
+	private int nbMaxPersonnes;
+	
+	public  VéhiculeTransportPersonnes(int nbMaxPersonnes) {
+		this.nbMaxPersonnes = nbMaxPersonnes;
+	}
+	
+	public int getNbMaxPersonnes() {
+		return this.nbMaxPersonnes;
+	}
+}

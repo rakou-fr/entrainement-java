@@ -1,0 +1,14 @@
+
+public class CamionCiterne extends VéhiculeTransportMarchandises{
+	public CamionCiterne(float chargeMax, float chargeUtile, String immatriculation, float poids) {
+		super(chargeMax, chargeUtile, immatriculation, poids);
+	}
+
+	@Override
+	public float vitesseMax() throws IllegalArgumentException{
+		if ( !(this.getChargeUtile() <= this.getChargeMax()) ) {
+			
+		}
+		return 0;
+	}
+}

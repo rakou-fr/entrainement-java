@@ -1,0 +1,20 @@
+
+public class Minibus extends VéhiculeTransportPersonnes{
+	public Minibus(int nbMaxPersonnes, float poids, String immatriculation) {
+		super(nbMaxPersonnes, poids, immatriculation);
+	}
+
+	@Override
+	public float vitesseMax() {
+		if (this.getNbMaxPersonnes() <= 6) {
+			return 130.0f;
+		}
+		if (this.getNbMaxPersonnes() <= 9) {
+			return 120.0f;
+		}
+		if (this.getNbMaxPersonnes() > 9) {
+			return 110.0f;
+		}
+		return 0f;
+	}
+}

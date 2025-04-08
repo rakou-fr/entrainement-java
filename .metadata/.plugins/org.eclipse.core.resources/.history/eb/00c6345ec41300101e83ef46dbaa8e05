@@ -1,0 +1,13 @@
+
+abstract public class VéhiculeTransportPersonnes extends Véhicule{
+	private int nbMaxPersonnes;
+	
+	public  VéhiculeTransportPersonnes(int nbMaxPersonnes) {
+		super();
+		this.nbMaxPersonnes = nbMaxPersonnes;
+	}
+	
+	public int getNbMaxPersonnes() {
+		return this.nbMaxPersonnes;
+	}
+}

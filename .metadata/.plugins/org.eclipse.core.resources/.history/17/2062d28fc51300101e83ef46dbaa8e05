@@ -1,0 +1,6 @@
+
+abstract public class Minibus extends{
+	public Minibus() {
+		
+	}
+}

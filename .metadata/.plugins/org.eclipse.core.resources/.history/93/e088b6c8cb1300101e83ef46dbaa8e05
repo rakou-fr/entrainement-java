@@ -1,0 +1,17 @@
+
+public class CamionRemorque extends VéhiculeTransportMarchandises{
+	public CamionRemorque(float chargeMax, float chargeUtile, String immatriculation, float poids) {
+		super(chargeMax, chargeUtile, immatriculation, poids);
+	}
+
+	@Override
+	public float vitesseMax() throws IllegalArgumentException{
+		if (this.getChargeUtile() > 0.0f && this.getChargeUtile() < 110.0f) {
+			return 110.0f - this.getChargeUtile();
+		}
+		else {
+			new IllegalArgumentException("Charge utile invalide");
+		}
+		return 110.0f;
+	}
+}

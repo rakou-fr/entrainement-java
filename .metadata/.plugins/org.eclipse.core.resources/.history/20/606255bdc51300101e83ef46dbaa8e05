@@ -1,0 +1,6 @@
+
+abstract public class Minibus extends VéhiculeTransportPersonnes{
+	public Minibus(float chargeMax, float chargeUtile, String immatriculation, float poids) {
+		super()
+	}
+}

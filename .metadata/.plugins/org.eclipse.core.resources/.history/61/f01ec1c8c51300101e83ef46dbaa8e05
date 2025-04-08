@@ -1,0 +1,6 @@
+
+abstract public class Minibus extends VéhiculeTransportPersonnes{
+	public Minibus(int nbMaxPersonnes, float poids, String immatriculation) {
+		super(nbMaxpersonnes, poids, immatriculation);
+	}
+}

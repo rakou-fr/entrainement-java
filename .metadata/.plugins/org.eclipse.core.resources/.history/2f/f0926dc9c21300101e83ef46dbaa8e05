@@ -1,0 +1,10 @@
+
+public class Véhicule {
+	private String immatriculation;
+	private float poids;
+	
+	public Véhicule() {
+		this.immatriculation = immatriculation;
+		
+	}
+}

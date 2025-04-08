@@ -1,0 +1,6 @@
+
+public abstract class CamionCiterne extends VéhiculeTransportMarchandises{
+	public CamionCiterne(float chargeMax, float chargeUtile, String immatriculation, float poids) {
+		super(chargeMax, chargeUtile);
+	}
+}

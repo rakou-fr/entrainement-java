@@ -1,0 +1,4 @@
+
+abstract public class CamionRemorque extends VéhiculeTransportMarchandises{
+	
+}

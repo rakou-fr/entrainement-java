@@ -1,0 +1,6 @@
+
+abstract public class CamionRemorque extends VéhiculeTransportMarchandises{
+	public CamionRemorque(float chargeMax, float chargeUtile, String immatriculation, float poids) {
+		super(chargeMax, chargeUtile, immatriculation, poids);
+	}
+}

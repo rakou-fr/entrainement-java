@@ -1,0 +1,6 @@
+
+public class Véhicule {
+	private String immatriculation;
+	private float poids;
+	
+}

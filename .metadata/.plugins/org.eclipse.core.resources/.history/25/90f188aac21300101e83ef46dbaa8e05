@@ -1,0 +1,5 @@
+
+public class Véhicule {
+	private String immatriculation;
+	
+}
