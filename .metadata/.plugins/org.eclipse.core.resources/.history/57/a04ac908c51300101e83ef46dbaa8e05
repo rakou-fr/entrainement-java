@@ -1,6 +1,0 @@
-
-public class CamionCiterne extends VéhiculeTransportMarchandises{
-	public CamionCiterne(float chargeMax, float chargeUtile) {
-		
-	}
-}

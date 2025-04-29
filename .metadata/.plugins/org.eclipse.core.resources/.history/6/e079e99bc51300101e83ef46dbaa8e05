@@ -1,6 +1,0 @@
-
-abstract public class Minibus extends{
-	public Minibus(float chargeMax, float chargeUtile, String immatriculation, float poids) {
-		
-	}
-}
