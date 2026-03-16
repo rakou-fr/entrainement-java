@@ -56,7 +56,7 @@ public class Couleur {
     }
 
     public void setBleu(int bleu) throws IllegalArgumentException {
-        if (bleu < 0 || bleu > 255) {
+        if (bleu < 1 || bleu > 255) {
             throw new IllegalArgumentException(
                     "mauvaise nuance de bleu " + bleu);
         }
